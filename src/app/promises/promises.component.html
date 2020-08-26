@@ -1,0 +1,14 @@
+<h2 id="promiseHead">What Are JavaScript Promises?</h2>
+
+<p class="description">According to <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">MDN</a>, a JavaScript Promise is
+<q>a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or 
+    failure reason.</q> In plain English, it essentially means that JavaScript can supply data at a later point based on some sort of "event", which allows webpages to be more
+    dynamic in their uses.
+</p>
+
+<p class="description">A Promise can exist in one of three states:</p>
+
+<ul class="description" *ngFor="let state of promise_states">
+    <li>{{ state }}</li>
+</ul>
+

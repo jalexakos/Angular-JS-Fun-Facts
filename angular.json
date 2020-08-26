@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Fun-Facts-JS"
+    }
+  },
+  "defaultProject": "Fun-Facts-JS",
+  "cli": {
+    "analytics": false
+  }
 }

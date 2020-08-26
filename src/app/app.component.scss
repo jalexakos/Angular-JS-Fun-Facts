@@ -1,0 +1,33 @@
+body{
+    background-color: cornsilk;
+}
+
+#welcome{
+    text-align: center;
+    color: darkslategrey;
+    font-size: 350%;
+}
+
+.navHead{
+    display: block;
+    list-style-type: none;
+    width: 100%;
+    overflow: auto;
+}
+
+.navElem {
+    font-size: 120%;
+    // display: inline;
+    float: left;
+    margin-right: 7%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+a:visited {
+    color: dimgrey;
+}
+
+a:hover {
+    color: midnightblue;
+}
